@@ -1,13 +1,12 @@
-const apiBaseUrl = 'https://arellanoapi.onrender.com/api'; // la API está desplegada en otro lado
-const token = 'supersecreto'; // Token de autenticación
+const apiBaseUrl = 'https://arellanoapi.onrender.com/api'; 
+const token = 'supersecreto'; 
 
-// Obtener todos los usuarios
 function obtenerUsuarios() {
     fetch(`${apiBaseUrl}/usuarios`, {
         method: 'GET',
         headers: {
             'Content-Type': 'application/json',
-            'x-auth-token': token // Agregar el token al header
+            'x-auth-token': token 
         }
     })
     .then(response => response.json())

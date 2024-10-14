@@ -1,4 +1,4 @@
-const apiBaseUrl = 'https://arellanoapi.onrender.com/api'; // Cambia esta URL si la API está desplegada en otro lado
+const apiBaseUrl = 'https://arellanoapi.onrender.com/api'; // Cambn otro lado
 const token = 'supersecreto'; // Token de autenticación
 
 // Obtener todas las ofertas
